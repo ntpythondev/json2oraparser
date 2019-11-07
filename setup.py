@@ -5,10 +5,10 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="json2oraparser",
-    version="1.0.0",
+    version="1.0.1",
     author="Abhishek Sinha, Samrat Ghosh, Siddhartha Bhattacharya, Shouvik Das, Sudipta Dey, Subhajit Bhar",
     author_email="ntpythondev@gmail.com",
-    description="The 'json2oraparser' library parses a JSON file according to the metadata and stores Json data into Oracle database",
+    description="The 'json2oraparser' library parses a JSON file (nested upto n-th level) according to user given metadata and stores Json data into Oracle database",
     long_description=long_desc,
     long_description_content_type="text/markdown",
 	license = "MIT",
