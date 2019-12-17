@@ -29,9 +29,9 @@ Program reads the user given metadata for one time and looks it up while travers
 
     import json2oraparser
 
-    metadata = json2oraparser.createMetadata (C:/Event_Metadata.csv)
+    metadata = json2oraparser.createMetadata ('C:/Event_Metadata.csv')
 
-    json2oraparser.loadJson (C:/Event2019.json, metadata, 111.11.11.11, 1111, EVNT, EVNT_USR, EvntPassword@1)
+    json2oraparser.loadJson ('C:/Event2019.json', metadata, '100.10.11.12', '1234', 'EVNT', 'EVNT_USR', 'EvntPassword@1')
 
 
 ## Overview :
@@ -42,7 +42,7 @@ The entire project operation is a 2 step process –
 
       The sample code piece related to this step is -
 
-      metadata = json2oraparser.createMetadata (C:/Event_Metadata.csv)
+      metadata = json2oraparser.createMetadata ('C:/Event_Metadata.csv')
     
 ### json2oraparser.createMetadata() :
 
@@ -89,7 +89,7 @@ Metadata CSV file preparation with proper information and correct format is the 
 
       The sample code piece related to this step is -
 
-      json2oraparser.loadJson (C:/Event2019.json, metadata, 111.11.11.11, 1111, EVNT, EVNT_USR, EvntPassword@1)
+      json2oraparser.loadJson ('C:/Event2019.json', metadata, '100.10.11.12', '1234', 'EVNT', 'EVNT_USR', 'EvntPassword@1')
 
 ### json2oraparser.loadJson() :
 
